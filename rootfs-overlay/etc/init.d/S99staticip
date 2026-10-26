@@ -1,0 +1,13 @@
+#!/bin/sh
+case "$1" in
+  start)
+    # Poll until eth0 actually exists in the kernel
+    while ! ip link show eth0 > /dev/null 2>&1; do
+        sleep 1
+    done
+    ip link set eth0 up
+    ip addr flush dev eth0
+    ip addr add 10.0.0.10/24 dev eth0
+    ;;
+esac
+exit 0

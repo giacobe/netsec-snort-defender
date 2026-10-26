@@ -1,0 +1,10 @@
+#!/bin/sh
+case "$1" in
+  start)
+    /usr/bin/snort_lab_init.py >/dev/console 2>&1
+    echo 1 >/var/lib/snort-lab/stage
+    /usr/bin/traffic_sink.py >/dev/console 2>&1 &
+    ;;
+  stop) killall traffic_sink.py 2>/dev/null || true ;;
+esac
+exit 0

@@ -1,0 +1,3 @@
+* text=auto eol=lf
+rootfs-overlay/usr/bin/found -text
+rootfs-overlay/root/Desktop/*.tar.gz -text

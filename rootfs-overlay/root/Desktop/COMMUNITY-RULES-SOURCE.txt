@@ -1,0 +1,7 @@
+File: community-rules-snort2-retrieved-2026-10-26.tar.gz
+Original URL: https://www.snort.org/downloads/community/community-rules.tar.gz
+Retrieved: 2026-10-26
+Engine: Snort 2.9.20
+SHA-256: 2be9ea8e4263a0c1923d64e98d4a6ac3e96bbda1548df53804e3d5cfaf985203
+Selected lab rule: SID 24265, revision 6
+Selected message: MALWARE-OTHER Malicious UA detected on non-standard port

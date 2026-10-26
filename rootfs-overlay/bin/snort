@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# The Buildroot Snort package uses dynamic DAQ modules. Its pcap module is
+# installed in /usr/lib/daq, which Snort 2 does not search automatically.
+exec /usr/bin/snort --daq-dir /usr/lib/daq "$@"

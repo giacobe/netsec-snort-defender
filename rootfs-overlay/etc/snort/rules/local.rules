@@ -1,0 +1,13 @@
+# Snort Local Rules
+# Format: alert <proto> <src_ip> <src_port> -> <dst_ip> <dst_port> (msg:"..."; sid:...; rev:1;)
+#
+# Example:
+# alert tcp any any -> any 80 (msg:"WEB traffic"; sid:1000001; rev:1;)
+#
+# TODO: add your detection rules below this line
+# Student-managed rules for the three-stage Snort lab.
+#
+# Stage 1: write a scoped rule using IP, port, and a text content match.
+# Stage 2: copy the applicable official community rule from ~/Desktop.
+# Stage 3: write a rule containing the hexadecimal indicator from
+#          ~/Desktop/threat-intel.txt.

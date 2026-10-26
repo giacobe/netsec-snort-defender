@@ -1,0 +1,26 @@
+# path type mode uid gid major minor start inc count
+/etc/hostname                         f 0644 0 0 - - - - -
+/etc/issue                            f 0644 0 0 - - - - -
+/etc/inittab                          f 0644 0 0 - - - - -
+/etc/network/interfaces              f 0644 0 0 - - - - -
+/etc/init.d/S41staticip               f 0755 0 0 - - - - -
+/etc/init.d/S96snortlab               f 0755 0 0 - - - - -
+/etc/init.d/S98syshealth              f 0755 0 0 - - - - -
+/etc/init.d/S99staticip               f 0755 0 0 - - - - -
+/etc/snort/snort.conf                 f 0644 0 0 - - - - -
+/etc/snort/classification.config      f 0644 0 0 - - - - -
+/etc/snort/rules/local.rules          f 0644 0 0 - - - - -
+/usr/bin/found                        f 0755 0 0 - - - - -
+/usr/bin/found.py                     f 4755 0 0 - - - - -
+/usr/bin/sys_health_chk.py            f 0755 0 0 - - - - -
+/usr/bin/traffic_sink.py              f 0755 0 0 - - - - -
+/usr/bin/snort_lab_init.py            f 0755 0 0 - - - - -
+/usr/bin/labctl                       f 0755 0 0 - - - - -
+/usr/bin/labctl.py                    f 0755 0 0 - - - - -
+/usr/lib/snort-lab/scenario.py        f 0644 0 0 - - - - -
+/root/Desktop                         d 0755 0 0 - - - - -
+/root/Desktop/README.txt              f 0644 0 0 - - - - -
+/root/Desktop/COMMUNITY-RULES-SOURCE.txt f 0644 0 0 - - - - -
+/root/Desktop/community-rules-snort2-retrieved-2026-10-26.sha256 f 0644 0 0 - - - - -
+/root/Desktop/community-rules-snort2-retrieved-2026-10-26.tar.gz f 0644 0 0 - - - - -
+/bin/snort                            f 0755 0 0 - - - - -
